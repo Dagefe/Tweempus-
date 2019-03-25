@@ -4,11 +4,11 @@ import { Author } from '../../author/author.model';
 import { Twimp } from '../twimp.model';
 
 @Component({
-  selector: 'tweempus-tweempus-twimp-list',
-  templateUrl: './tweempus-twimp-list.component.html',
-  styleUrls: ['./tweempus-twimp-list.component.css']
+  selector: 'tweempus-twimp-list',
+  templateUrl: './twimp-list.component.html',
+  styleUrls: ['./twimp-list.component.css']
 })
-export class TweempusTwimpListComponent implements OnInit {
+export class TwimpListComponent implements OnInit {
 
   text:string = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur sodales libero, sit amet posuere arcu consectetur ut. Nam volutpat ligula ac nunc consectetur vestibulum.'
   authors: Author[] = [];
